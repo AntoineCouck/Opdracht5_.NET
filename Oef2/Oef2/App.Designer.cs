@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GetallenLijst = new System.Windows.Forms.ListBox();
+            this.GetallenVerzameling = new System.Windows.Forms.ListBox();
             this.NieuwGetalButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.gem = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // GetallenLijst
+            // GetallenVerzameling
             // 
-            this.GetallenLijst.FormattingEnabled = true;
-            this.GetallenLijst.ItemHeight = 20;
-            this.GetallenLijst.Location = new System.Drawing.Point(233, 74);
-            this.GetallenLijst.Name = "GetallenLijst";
-            this.GetallenLijst.Size = new System.Drawing.Size(404, 224);
-            this.GetallenLijst.TabIndex = 0;
+            this.GetallenVerzameling.FormattingEnabled = true;
+            this.GetallenVerzameling.ItemHeight = 20;
+            this.GetallenVerzameling.Location = new System.Drawing.Point(233, 74);
+            this.GetallenVerzameling.Name = "GetallenVerzameling";
+            this.GetallenVerzameling.Size = new System.Drawing.Size(404, 224);
+            this.GetallenVerzameling.TabIndex = 0;
             // 
             // NieuwGetalButton
             // 
@@ -60,7 +60,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "GemiddeldeBerekener";
+            this.label1.Text = "Gemiddelde";
             // 
             // gem
             // 
@@ -78,9 +78,9 @@
             this.Controls.Add(this.gem);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NieuwGetalButton);
-            this.Controls.Add(this.GetallenLijst);
+            this.Controls.Add(this.GetallenVerzameling);
             this.Name = "Gemiddelde";
-            this.Text = "Gemiddelde";
+            this.Text = "GemiddeldeBerekener";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,7 +89,7 @@
         #endregion
         private System.Windows.Forms.Button NieuwGetalButton;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.ListBox GetallenLijst;
+        public System.Windows.Forms.ListBox GetallenVerzameling;
         public System.Windows.Forms.TextBox gem;
     }
 }

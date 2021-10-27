@@ -21,32 +21,32 @@ namespace Oef2
 
             if (dialogWindow.DialogResult == DialogResult.OK)
             {
-                AddNumber(dialogWindow.number);
-                CalculateAVG();
+                VoegToeAanLijst(dialogWindow.number);
+                berekenGemiddelde();
                 dialogWindow.Dispose();
             }
         }
 
 
-        public void AddNumber(double number)
+        public void VoegToeAanLijst(double number)
         {
-            GetallenLijst.Items.Add(number);
+            GetallenVerzameling.Items.Add(number);
 
         }
 
 
-        public void CalculateAVG()
+        public void berekenGemiddelde()
         {
 
             double total = 0;
 
 
-            for (int i = 0; i < GetallenLijst.Items.Count; i++)
+            for (int i = 0; i < GetallenVerzameling.Items.Count; i++)
             {
-                total = total + double.Parse(GetallenLijst.Items[i].ToString());
+                total = total + double.Parse(GetallenVerzameling.Items[i].ToString());
             }
 
-            total = (total / GetallenLijst.Items.Count);
+            total = (total / GetallenVerzameling.Items.Count);
 
 
             gem.Text = total.ToString();

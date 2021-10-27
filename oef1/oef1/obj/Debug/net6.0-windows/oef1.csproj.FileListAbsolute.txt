@@ -1,5 +1,4 @@
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.GlobalUsings.g.cs
-C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.Form1.resources
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.csproj.GenerateResource.cache
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\ref\oef1.dll
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.pdb
 C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.genruntimeconfig.cache
+C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.csproj.AssemblyReference.cache
+C:\Users\antoi\source\repos\hoofdstuk6 schermen\opdracht5 Couck Antoine\oef1\oef1\obj\Debug\net6.0-windows\oef1.NotePad.resources

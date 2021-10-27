@@ -1,7 +1,7 @@
 ﻿
 namespace oef1
 {
-    partial class Form1
+    partial class NotePad
     {
         /// <summary>
         ///  Required designer variable.
@@ -320,7 +320,7 @@ namespace oef1
             this.largeToolStripMenuItem1.Text = "Large";
             this.largeToolStripMenuItem1.Click += new System.EventHandler(this.largeToolStripMenuItem1_Click);
             // 
-            // Form1
+            // NotePad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -328,7 +328,7 @@ namespace oef1
             this.ClientSize = new System.Drawing.Size(1209, 605);
             this.Controls.Add(this.InputText);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Form1";
+            this.Name = "NotePad";
             this.Text = "NotePad";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
